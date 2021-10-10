@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    /* Styling the body element
+		like body color and margin */
+    body {
+      background-color: #ff8400;
+      margin: 20%;
+    }
+
+    /* Styling the Title and giving
+		shadow to the title */
+    #title {
+      text-align: center;
+      text-shadow: 5px 5px 10px white;
+      font-size: 7vh;
+    }
+
+    /* Setting width and display
+		type of image */
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    /* Setting font color and font
+		size of the image-caption */
+    #caption {
+      font-size: 17px;
+      font-family: Gill Sans;
+      color: black;
+    }
+
+    /* Styling the content of the page like-
+		padding, font-size, font color etc.*/
+    div#tribute-data {
+      background-color: rgba(255, 255, 255, 0.25);
+      box-shadow: 20px 20px 20px #98FB98;
+      font-family: Georgia;
+      padding: 25px 25px;
+      margin: 11px;
+      margin-top: 50px;
+    }
+
+    /* Styling the title of the content */
+    h1.title-APJ {
+      font-size: 35px;
+      color: white;
+      text-align: center;
+      text-shadow: 5px 5px 10px black;
+    }
+
+    /* Styling the link provided at the end */
+    #tribute-link {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <main id="main">
+
+    <!-- Title of the page -->
+    <h1 id="title">
+      A. P. J. Abdul Kalam
+    </h1>
+
+    <div id="img-div">
+
+      <!--Image of the Tribute Person-->
+      <img src="data:image/jpeg;base64,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" id="image" alt="Error Loading Image">
+      <small id="img-caption">
+        Great Indian scientist and
+        politician who played a leading
+        role in the development of India’s
+        missile and nuclear weapons
+        programs.
+      </small>
+    </div>
+
+    <div id="tribute-info">
+
+      <!--Achievements and other
+				details of the person-->
+      <h1 class="title-APJ">
+        About the Legend
+      </h1>
+
+      <p>
+        ☛ A.P.J. Abdul Kalam, in full
+        Avul Pakir Jainulabdeen Abdul Kalam,
+        was born on October 15, 1931, in
+        Rameswaram, Tamil Nadu, India.<br><br>
+        ☛ He served as the 11th President
+        of India from 2002 to 2007.<br><br>
+        ☛ Kalam earned a degree in
+        aeronautical engineering from the
+        Madras Institute of Technology and in
+        1958 joined the Defence Research and
+        Development Organisation (DRDO).<br><br>
+        ☛ In 1969, he moved to the Indian
+        Space Research Organisation, where he
+        was project director of the SLV-III, the
+        first satellite launch vehicle that was
+        both designed and produced in India.
+        <br><br> ☛ Rejoining DRDO in 1982,
+        Kalam planned the program that produced
+        a number of successful missiles, which
+        helped earn him the nickname <strong>
+          “Missile Man.”</strong>
+        <br><br> ☛ Among those successes
+        was Agni, India’s first intermediate-range
+        ballistic missile, which incorporated
+        aspects of the SLV-III and was launched
+        in 1989.
+        <br><br> ☛ He also played a
+        pivotal organisational, technical,
+        and political role in India's Pokhran-II
+        nuclear tests in 1998, the first since
+        the original nuclear test by India in 1974.
+        <br><br> ☛ From 1992 to 1997 Kalam
+        was scientific adviser to the defense
+        minister, and he later served as principal
+        scientific adviser (1999–2001) to the
+        government with the rank of cabinet minister.
+        <br><br> ☛ His prominent role in
+        the country’s 1998 nuclear weapons tests
+        solidified India as a nuclear power and
+        established Kalam as a national hero,
+        although the tests caused great concern
+        in the international community.
+        <br><br> ☛ In 1998 Kalam put
+        forward a countrywide plan called
+        Technology Vision 2020, which he described
+        as a road map for transforming India from
+        a less-developed to a developed society
+        in 20 years. The plan called for, among
+        other measures, increasing agricultural
+        productivity, emphasizing technology as
+        a vehicle for economic growth, and
+        widening access to health care and
+        education.
+        <br><br> ☛ Kalam received <b>7</b>
+        honorary doctorates from <b>40</b>
+        universities. The Government of India
+        honoured him with the <b>Padma Bhushan
+          in 1981</b> and the <b>Padma Vibhushan
+          in 1990</b> for his work with ISRO and
+        DRDO and his role as a scientific advisor
+        to the Government.
+        <br><br> ☛ In 1997, Kalam received
+        India's highest civilian honour, the
+        Bharat Ratna, for his contribution to
+        the scientific research and modernisation
+        of defence technology in India.
+        <br><br> ☛ In 2013, he was the
+        recipient of the Von Braun Award from
+        the National Space Society "to recognize
+        excellence in the management and leadership
+        of a space-related project".
+        <br><br> ☛ While delivering a
+        lecture at the Indian Institute of
+        Management Shillong, Kalam collapsed and
+        died from an apparent cardiac arrest on
+        <b>27 July 2015</b>, aged 83.
+        <br><br> ☛ Wheeler Island, a
+        national missile test site in Odisha, was
+        renamed <b>Kalam Island</b> in September
+        2015.
+        <br><br> ☛ A prominent road in
+        New Delhi was renamed from Aurangzeb
+        Road to <b>Dr APJ Abdul Kalam Road</b>
+        in August 2015.
+        <br><br> ☛ In February 2018,
+        scientists from the Botanical Survey
+        of India named a newly found plant
+        species as Drypetes kalamii, in his
+        honour.
+        <br><br><br>
+      </p>
+
+    </div>
+    <br>
+    For more information,
+    check out
+    <a id="tribute-link" href="#">
+      <b>A.P.J. Abdul Kalam</b> on Wikipedia. [
+      <small>Developed by @<a href="#">
+          Ayush</a></a>
+    </small>]
+  </main>
+</body>
+
+</html>
